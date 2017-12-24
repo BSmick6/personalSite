@@ -1,0 +1,57 @@
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 5px;
+}
+
+#root {
+  position: absolute;
+  top: 0;
+  left: 1300px;
+}
+
+.parents div:not(.lines), .individual {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: turquoise;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.partnerLeft {
+  margin-right: 0;
+}
+
+.partnerRight {
+  margin-left: 0;
+}
+
+.lines {
+  height: 1px;
+  border: 1px solid white;
+  width: 90%;
+  padding: 0;
+}
+
+.parents {
+  display: flex;
+  align-items: center;
+}
+
+.children {
+  display: flex;
+}
